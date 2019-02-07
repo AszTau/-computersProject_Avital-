@@ -1,10 +1,8 @@
 import os.path
 
 # Error prints.
-length_error = "Input file error: Data lists are not the same \
-length."
-non_positive_uncertainty_error = "Input file error: Not all \
-uncertainties are positive."
+length_error = "Input file error: Data lists are not the same length."
+non_positive_uncertainty_error = "Input file error: Not all uncertainties are positive."
 path_invalid_error = "Input file error: path invalid."
 
 def is_filename_valid(filename):
